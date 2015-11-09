@@ -1,0 +1,486 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.container
+{
+	width: 60%;
+	min-height: 200px;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.container
+{
+	width: 60%;
+	min-height: 200px;
+}
+
+.case
+{
+	display: block;
+	width: 98%;
+	height: 100%;
+	z-index: 1;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.logo
+{
+  display: block;
+  width: 1%;
+  height: 100%;
+  position: absolute;
+
+}
+
+.logo_img
+{
+  position: absolute;
+  min-height: 100%;
+  display: none;
+}
+
+.logo_img_2
+{
+  position: absolute;
+  min-height: 100%;
+}
+
+.logo_img img
+{
+    position: absolute;
+  top: 15px;
+  width: 120px;
+  left: 60px;
+  display: none;
+}
+
+
+.logo_img_2 img
+{
+    position: absolute;
+  top: 15px;
+  width: 120px;
+  left: 5px;
+  z-index: 200;
+  display: block;
+}
+
+
+
+
+.slogan
+{
+
+  display: none;
+}
+
+
+.logo_text
+{
+  position: fixed;
+/*  margin-right: auto;
+  margin-left: auto;*/
+  top: auto;
+  bottom: 5px;
+  line-height: 1.2;
+  border-radius: 5%;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  width: 53%;
+  background-color: #fff;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.logo_text .title
+{
+  background: rgba(190,190,190, 0.9);
+  border-radius: 5%;
+  border: none;
+  margin-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-block;
+}
+
+.logo_text .point_1
+{
+  background: rgba(116,191,237, 0.9);
+  border-radius: 5%;
+  border: none;
+  margin-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-block;
+}
+
+.logo_text .point_2
+{
+  background: rgba(0,192,156, 0.9);
+  border-radius: 5%;
+  border: none;
+  margin-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-block;
+}
+
+.logo_text .point_3
+{
+  background: rgba(237,157,16, 0.9);
+  border-radius: 5%;
+  border: none;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+.mailto, .telephone, .address, .copyrait
+{
+  display: none;
+}
+
+
+.case_moreinfo
+{
+position: absolute;
+bottom: 0;
+left: 5px;
+}
+
+
+
+.title
+{
+  font-weight: 600;
+  color: black;
+  color: #4d110f;
+}
+
+.headline
+{
+  font-size: 25px;
+  margin-top: 8px;
+}
+
+.subheadline
+{
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.white_button
+{
+  margin-left: 5px;
+  margin-top: 20px;
+/*  transform: none;
+  transition-property: none;*/
+}
+
+.more
+{
+  opacity: 1;
+  margin-left: 20px;
+ margin-top: 35px;
+ margin-bottom: 100px;
+}
+
+
+.description
+{
+  display: none;
+}
+
+
+
+
+
+
+
+
+/*Кнопки для переключение слайдов*/
+
+.top_button
+{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  bottom: 110px;
+  right: 20px;
+  background-image: url(../img/top_button.png);
+  background-size: 60%;
+}
+
+.bottomn_button
+{
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  bottom: 70px;
+  right: 20px;
+  background-image: url(../img/bottom_button.png);
+  background-size: 50%;
+}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.container
+{
+	width: 60%;
+	min-height: 200px;
+}
+
+.case
+{
+	display: block;
+	width: 98%;
+	height: 100%;
+	z-index: 1;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.logo
+{
+	display: block;
+	width: 1%;
+	height: 100%;
+	position: absolute;
+
+}
+
+.logo_img
+{
+	position: absolute;
+	min-height: 100%;
+  display: none;
+}
+
+.logo_img_2
+{
+  position: absolute;
+  min-height: 100%;
+}
+
+.logo_img img
+{
+    position: absolute;
+  top: 15px;
+  width: 120px;
+  left: 60px;
+  display: none;
+}
+
+
+.logo_img_2 img
+{
+    position: absolute;
+  top: 15px;
+  width: 120px;
+  left: 5px;
+  z-index: 200;
+  display: block;
+}
+
+
+
+
+.slogan
+{
+
+  display: none;
+}
+
+
+.logo_text
+{
+  position: fixed;
+/*  margin-right: auto;
+  margin-left: auto;*/
+  top: auto;
+  bottom: 5px;
+  line-height: 1.2;
+  border-radius: 5%;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  width: 53%;
+  background-color: #fff;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.logo_text .title
+{
+  background: rgba(190,190,190, 0.9);
+  border-radius: 5%;
+  border: none;
+  margin-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-block;
+}
+
+.logo_text .point_1
+{
+  background: rgba(116,191,237, 0.9);
+  border-radius: 5%;
+  border: none;
+  margin-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-block;
+}
+
+.logo_text .point_2
+{
+  background: rgba(0,192,156, 0.9);
+  border-radius: 5%;
+  border: none;
+  margin-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-block;
+}
+
+.logo_text .point_3
+{
+  background: rgba(237,157,16, 0.9);
+  border-radius: 5%;
+  border: none;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+.mailto, .telephone, .address, .copyrait
+{
+	display: none;
+}
+
+
+.case_moreinfo
+{
+position: absolute;
+bottom: 0;
+left: 5px;
+}
+
+
+
+.title
+{
+	font-weight: 600;
+	color: black;
+	color: #4d110f;
+}
+
+.headline
+{
+	font-size: 25px;
+	margin-top: 8px;
+}
+
+.subheadline
+{
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+.white_button
+{
+	margin-left: 5px;
+  margin-top: 20px;
+/*  transform: none;
+  transition-property: none;*/
+}
+
+.more
+{
+  opacity: 1;
+  margin-left: 20px;
+ margin-top: 35px;
+ margin-bottom: 100px;
+}
+
+
+.description
+{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+/*Кнопки для переключение слайдов*/
+
+
+
+.top_button
+{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  bottom: 110px;
+  right: 20px;
+  background-image: url(../img/top_button.png);
+  background-size: 60%;
+}
+
+.bottomn_button
+{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  bottom: 70px;
+  right: 20px;
+  background-image: url(../img/bottom_button.png);
+  background-size: 60%;
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	
+
+}

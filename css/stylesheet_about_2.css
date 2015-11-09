@@ -1,0 +1,291 @@
+
+header 
+{
+	background: url(../img/about_main.jpg) no-repeat;
+	height: 400px;
+	width: 100%;
+	background-size: 100%;
+	background-position: 50% 50%;
+	position: relative;
+}
+
+.text_about
+{
+	display: block;
+	font-size: 120px;
+	color: white;
+	position: absolute;
+	top: 140px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.about_agensy
+{
+	width: 100%;
+	min-height: 300px;
+	display: block;
+	position: relative;
+}
+
+.about_agensy_vertical1, .about_agensy_vertical2
+{
+	display: inline-block;
+	width: 49%;
+}
+
+.about_agensy_vertical2
+{
+	background: url(../img/workingplace.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	min-height: 300px;
+	float: right;
+}
+
+.title, .title_reason
+{
+	font-size: 25px;
+	color: red;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.text_about_agency
+{
+    font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.clear
+{
+	width: 100%;
+	height: 1px;
+	clear: both;
+}
+
+.about_agensy_row2
+{
+	background: url(../img/work.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	min-height: 300px;
+	width: 100%;
+	margin-top: -1px;
+}
+
+
+.reason_to_love
+{
+	display: block;
+	width: 100%;
+}
+
+.reason_to_love1, .reason_to_love2
+{
+	position: relative;
+	display: inline-block;
+	width: 49%;
+}
+
+
+.title_reason
+{
+	text-align: left;
+	margin-top: 50px;
+	width: 90%;
+}
+
+.title_more
+{
+	text-align: left;
+	margin-bottom: 50px;
+	width: 90%;
+	font-size: 20px;
+	margin-top: 20px;
+	line-height: 1.5;
+}
+
+
+.f_reason
+{
+	text-align: right;
+	font-size: 160px;
+	color: red;
+	position: absolute;
+	bottom: -7%;
+	right: 10px;
+}
+
+sup
+{
+	font-size: 100px;
+	vertical-align: top;
+}
+
+
+
+.awards{
+	width: 100%;
+}
+
+.winner{
+	display: block;
+	position: relative;
+	width: 25%;
+	float: left;
+	height: 100%;
+	background-color: brown;
+}
+
+.winner:hover{
+	background-color: rgb(213, 68, 60);
+}
+
+.winner_content{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	padding-top: 30px;
+}
+
+.winner_p_1, .winner_p_2{
+	border-top:1px solid #fff;
+}
+
+.winner_p_1{
+	text-align: center;
+	color:#fff;
+	padding: 20px;
+}
+
+.winner_p_2{
+	font-family: "HelveticaLight";
+	font-size: 70px;
+	color:#fff;
+	text-align: center;
+	line-height: 90px;
+	padding-top: 20px;
+}
+
+.winner_cup{
+	text-align: center;
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+@media only screen and (max-width : 992px) {
+
+
+.title, .title_reason
+{
+	font-size: 20px;
+}
+
+
+}
+
+
+@media only screen and (max-width : 768px) {
+
+header
+{
+	height: 300px;
+}
+
+.about_agensy_vertical1
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+
+.about_agensy_vertical2
+{
+	display: none;
+}
+
+.text_about
+{	top: 100px;
+	font-size: 70px;
+}
+
+.winner{
+	width: 50%;
+}
+
+
+.f_reason
+{
+	text-align: right;
+	font-size: 120px;
+	color: red;
+	position: absolute;
+	bottom: 30px;
+	right: 10px;
+}
+
+sup
+{
+	font-size: 70px;
+	vertical-align: top;
+}
+
+
+}
+
+@media only screen and (max-width : 480px) {
+
+header
+{
+	height: 200px;
+}
+
+	.text_about
+{
+	font-size: 40px;
+}
+
+.f_reason
+{
+	text-align: right;
+	font-size: 100px;
+	color: red;
+	position: absolute;
+	bottom: 80px;
+	right: 10px;
+}
+
+sup
+{
+	font-size: 50px;
+	vertical-align: top;
+}
+
+.about_agensy_vertical1
+{
+	width: 100%;
+	margin-bottom: 13px;
+}
+
+.title_more
+{
+	font-size: 12px;
+}
+
+
+}
+
+
+ @media only screen and (max-width : 320px) {
+
+
+
+ }

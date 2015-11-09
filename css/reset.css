@@ -1,0 +1,51 @@
+
+* {  
+  vertical-align: baseline;  
+  font-family: inherit;  
+  font-style: inherit;  
+  font-size: 100%;  
+  border: none;  
+  padding: 0;  
+  margin: 0;  
+} 
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+ a 
+ { 
+    text-decoration: none;
+}
+ 
+:focus 
+{
+outline: none;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  
+}
+body input:required:valid,
+body textarea:required:valid {
+  
+}
+
+body {
+  font-family: "HelveticaRegula", sans-serif;
+  position: relative;
+}

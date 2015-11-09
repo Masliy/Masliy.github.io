@@ -1,0 +1,235 @@
+
+
+.portfolio_wrapper{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.portfoliophoto{
+	display: inline-block;
+	width: 25%;
+	height: 300px;
+	float:left;
+	text-align: center;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 1s ease-in-out;
+}
+
+.is-showing
+{
+  opacity: 1;
+  transform: translateX(0px);
+  transition: all 1s ease-in-out;
+}
+
+.portfoliophoto img{
+	width: 100%;
+	height: 100%;
+	transition:width, 1s;
+}
+
+
+.portfolio_hover{
+	display: block;
+	
+	width: 90%;
+	height:90%;
+	bottom: 5%;
+	left: 5%;
+	visibility: hidden;
+    position: absolute;
+    bottom: 10px;
+    left: -100%;
+    background-color: rgba(228,33,23, .8);
+    color: white;
+    padding: 2px 8px;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+div:hover > .portfolio_hover{
+	 left: 0%;
+   visibility: visible;
+}
+
+
+.portfolio_h2{
+	position: absolute;
+	bottom: 70px;
+	left:30px;
+  font-size: 15px;
+
+}
+
+.portfolio_p{
+  font-size: 14px;
+  position: absolute;
+	bottom:30px;
+	left:30px;
+  line-height: 1;
+}
+
+
+.photo_1
+{
+  background-image: url(../img/team/aleks1.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_2
+{
+  background-image: url(../img/team/den1.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_3
+{
+  background-image: url(../img/team/zheniya.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_4
+{
+  background-image: url(../img/team/artem1.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_5
+{
+  background-image: url(../img/team/aleks2.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_6
+{
+  background-image: url(../img/team/den2.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_7
+{
+  background-image: url(../img/team/zheniya2.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_8
+{
+  background-image: url(../img/team/artem2.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_9
+{
+  background-image: url(../img/team/aleks3.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_10
+{
+  background-image: url(../img/team/den3.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_11
+{
+  background-image: url(../img/team/zheniya3.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+.photo_12
+{
+  background-image: url(../img/team/artem3.jpg);
+  background-size: cover;
+ background-position: 50% 50%;
+ position: relative;
+}
+
+
+
+
+
+
+
+@media screen and (max-width : 768px) {
+  .portfoliophoto{
+  width: 50%;
+  height: 200px;
+}
+
+.portfolio_hover{
+  display: block;
+  
+  width: 80%;
+  height:40%;
+  bottom: 5%;
+  left: 5%;
+  visibility: visible;
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    background-color: rgba(228,33,23, .8);
+    color: white;
+    padding: 2px 8px;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.portfolio_h2{
+  position: absolute;
+  bottom:40px;
+  left:30px;
+  font-size: 11px;
+
+}
+
+.portfolio_p{
+  position: absolute;
+  bottom:10px;
+  left:30px;
+  font-size: 11px;
+}
+
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+  .portfoliophoto{
+  width: 50%;
+  height: 150px;
+}
+
+
+}

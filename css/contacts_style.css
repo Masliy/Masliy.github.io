@@ -1,0 +1,269 @@
+
+
+body {
+    font-family: "HelveticaRegula", sans-serif;
+    font-size: 100%;
+    background: #bbc2bb;
+    min-width: 320px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.apper {
+    position: absolute;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 2%;
+    padding: 0 10px;
+    background: #afb6af;
+}
+
+
+/*<!-- Header content style-->*/
+.contacts-header {
+    padding-top: 100px;
+}
+
+.contacts-logo {
+    position: relative;
+    z-index: 50;
+}
+
+.contacts-logo img {
+    position: absolute;
+    top: -82px;
+    left: 45px;
+    width: 110px;
+}
+
+.contacts-logo-2 {
+    display: none;
+}
+
+/*<!-- Header content style-->*/
+
+/*<!-- Main content style-->*/
+.contacts-cat {
+    position: absolute;
+    top: 160px;
+    left: 40px;
+}
+
+.contacts-cat-img {
+    width: 200px;
+    height: auto;
+}
+
+.contacts-main-row {
+    margin-left: 300px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(85, 86, 88);
+}
+
+.contacts-main-column {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 65px;
+}
+
+.contacts-main-column:last-child{
+    margin-right: 0;
+}
+
+.contacts-main-title {
+    display: block;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+ul.contacts-address li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(158, 164, 161);
+    list-style: none;
+}
+
+.contacts-title {
+    display: block;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+ul.contacts-address li:first-child {
+    padding-top: 0px;
+}
+
+.title-white {
+    color: #ffffff;
+}
+
+.contacts-main-subline {
+    margin-bottom: 10px;
+}
+
+.contacts-main-column-mailto {
+    display: block;
+    color: #fff;
+    margin-bottom: 60px;
+    text-decoration: none;
+}
+
+.contacts-main-column-mailto:hover {
+    color: #939393;
+
+}
+/*<!-- Main content style-->*/
+
+
+/*<!-- Footer content style-->*/
+.contacts-footer {
+    padding-bottom: 20px;
+}
+a.contacts-footer-order-mailto,
+.contacts-footer-copyright {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(113, 117, 115);
+    opacity: 0.5;
+}
+
+a.contacts-footer-order-mailto {
+    margin-right: 180px;
+}
+
+a.contacts-footer-order-mailto:hover {
+    color: #939393;
+}
+/*<!-- Footer content style-->*/
+
+/*<!-- All media style-->*/
+@media only screen and (max-width : 992px) {
+    .contacts-greeting {
+        width: 57%;
+    }
+
+    .contacts-main-column {
+        width: 35%;
+    }
+}
+
+
+@media only screen and (max-width : 768px) {
+    .contacts-logo img {
+        display: none;
+    }
+
+    .contacts-logo-2 {
+        display: block;
+    }
+
+    .contacts-logo-2 img {
+        position: absolute;
+        top: 15px;
+        width: 120px;
+        left: 5px;
+        z-index: 200;
+    }
+
+    .contacts-cat {
+        display: none;
+    }
+
+    .contacts-main-row {
+        margin-left: 0;
+    }
+
+    .contacts-main-column {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    a.contacts-footer-order-mailto {
+        margin-right: 20%;
+    }
+}
+
+
+@media only screen and (max-width : 320px) {
+
+}
+/*<!-- All media style-->*/
+
+
+
+
+/*здесь начинается форма*/
+
+#feedback-form input[type="text"],
+#feedback-form textarea {
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+#name,
+#email,
+#message,
+#phone {
+    width: 90%
+}
+
+#message {
+    height: 60px;
+}
+
+.input-bloc {
+    margin-top: 20px;
+}
+
+#feedback-form textarea {
+    resize: none;
+}
+
+#feedback-form input[type="text"]:focus,
+#feedback-form textarea:focus{
+    border: 1px solid #ccc;
+}
+
+#feedback-form #send {
+    padding: 5px 20px;
+}
+
+#feedback-form .input-bloc{
+    margin-bottom: 10px;
+}
+
+#feedback-form .w1 label{
+    display: block;
+}
+
+#feedback-form .msg label{
+    display: block;
+    margin-bottom: 6px;
+}
+
+#send {
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(85, 86, 88);
+}
+
+.error-box{
+    font-size: 11px;
+    margin-top: 5px;
+}
+/*здесь заканчивается форма*/
+
+
